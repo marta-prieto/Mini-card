@@ -1,0 +1,2 @@
+# Mini-card
+SCSS project
