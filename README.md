@@ -19,17 +19,17 @@ https://github.com/marta-prieto/Mini-card
 - **BEM**: For naming CSS classes in a scalable and maintainable manner.
 - **Nunito font**: The Nunito font is used throughout the component, following the design guidelines.
 
-# Project Structure
 
-├── src/
-│   ├── scss/
-│   │   └── style.scss     # Main SCSS file (using BEM naming)
-│   ├── css/
-│   │   └── style.css      # Compiled CSS file
-│   ├── js/
-│   │   └── app.js         # JavaScript file for jQuery interaction
-│   └── index.html         # Main HTML file
-└── README.md              # Project documentation
+## Code Organization
+Single Responsibility Principle (SRP): Each part of the code is responsible for one task:
+SCSS files handle styling.
+JavaScript handles interactivity (click events).
+Modular Structure: The project is organized into separate files for better maintainability and clarity.
+
+## How It Works
+The Mini Card has two different layouts: one for desktop and another for mobile, with a breakpoint at 768px.
+Each card contains a button that changes color between green and red when clicked. This is achieved using jQuery's toggleClass() function, which switches between the active and inactive states.
+The CSS is written in SCSS using the BEM naming convention to keep the structure modular and easy to scale.
 
 
 ## Installation
